@@ -78,7 +78,7 @@ CF::Application.configure do
   config.log_formatter = ::Logger::Formatter.new
 
   # Do not dump schema after migrations.
-  config.active_record.dump_schema_after_migration = false
+  # config.active_record.dump_schema_after_migration = false
 
   # Force all access to the app over SSL, use Strict-Transport-Security,
   # and use secure cookies.
